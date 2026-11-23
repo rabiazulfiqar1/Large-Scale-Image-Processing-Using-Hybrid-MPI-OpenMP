@@ -1,0 +1,40 @@
+# Build output
+build/
+dist/
+bin/
+obj/
+out/
+
+# Compilers and executables
+*.o
+*.obj
+*.exe
+*.out
+*.so
+*.dll
+*.lib
+*.a
+*.pdb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.user
+*.opensdf
+*.sdf
+*.vcxproj.*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
