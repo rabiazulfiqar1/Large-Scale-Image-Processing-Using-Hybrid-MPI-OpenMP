@@ -38,3 +38,24 @@ cmake-build-*/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+main.exe
+*.exe
+*.obj
+*.o
+
+# Images
+images/original/*
+images/processed/*
+output/*.ppm
+output/*.jpg
+output/*.jpeg
+output/*.png
+
+# Benchmark generated images
+output/benchmark_*.ppm
+output/benchmark_*.jpg
+
+# Python cache
+__pycache__/
+*.pyc
